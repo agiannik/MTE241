@@ -1,8 +1,23 @@
 /****************************************************************//TYPEDEF/STRUCTS#include <stdio.h>
-typedef struct{    int a;    unsigned int b;    char c;}my_type_t;
-int main(){    my_type_t foo;        foo.a = 2;    foo.b = 4;    foo.c = 'a';     printf("My Struct contains: a=%d \t b=%d \t c=%c\n", foo.a, foo.b, foo.c);
-    return 0;}
+typedef struct{    
+  int a;    
+  unsigned int b;    
+  char c;
+}my_type_t;
+
+int main(){    
+  my_type_t foo;
+  
+  foo.a = 2;
+  foo.b = 4;
+  foo.c = 'a';
+  
+  printf("My Struct contains: a=%d \t b=%d \t c=%c\n", foo.a, foo.b, foo.c);
+  
+  return 0;
+}
 *********************************************************************/
+
 /****************************************************************//POINTERS
 #include <stdio.h>
 int main(){    printf("Hello, World!\n");
